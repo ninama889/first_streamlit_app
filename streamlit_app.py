@@ -37,7 +37,7 @@ streamlit.header("Hello from Snowflake:")
 streamlit.dataframe(my_data_rows)
 
 addfriute = streamlit.text_input('What fruit would you like add?')
-streamlit.write('The user entered ',addfriute )
+streamlit.write('The user adding ',addfriute )
 
 
 
